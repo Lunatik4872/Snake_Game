@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{61647EE8-F475-4451-9BCF-010D19321F3F}|Snake_Game\\Snake_Game.csproj|c:\\users\\gaelp\\documents\\projets\\snake_game\\snake_game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{61647EE8-F475-4451-9BCF-010D19321F3F}|Snake_Game\\Snake_Game.csproj|solutionrelative:snake_game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61647EE8-F475-4451-9BCF-010D19321F3F}|Snake_Game\\Snake_Game.csproj|c:\\users\\gaelp\\documents\\projets\\snake_game\\snake_game\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61647EE8-F475-4451-9BCF-010D19321F3F}|Snake_Game\\Snake_Game.csproj|solutionrelative:snake_game\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fruit.cs",
+              "DocumentMoniker": "C:\\Users\\gaelp\\Documents\\Projets\\Snake_Game\\Snake_Game\\Fruit.cs",
+              "RelativeDocumentMoniker": "Snake_Game\\Fruit.cs",
+              "ToolTip": "C:\\Users\\gaelp\\Documents\\Projets\\Snake_Game\\Snake_Game\\Fruit.cs",
+              "RelativeToolTip": "Snake_Game\\Fruit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T17:12:21.356Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,7 +44,7 @@
               "RelativeDocumentMoniker": "Snake_Game\\Snake.cs",
               "ToolTip": "C:\\Users\\gaelp\\Documents\\Projets\\Snake_Game\\Snake_Game\\Snake.cs",
               "RelativeToolTip": "Snake_Game\\Snake.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T12:48:28.354Z",
               "EditorCaption": ""
@@ -41,10 +57,9 @@
               "RelativeDocumentMoniker": "Snake_Game\\Program.cs",
               "ToolTip": "C:\\Users\\gaelp\\Documents\\Projets\\Snake_Game\\Snake_Game\\Program.cs",
               "RelativeToolTip": "Snake_Game\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAB0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T17:30:22.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T17:30:22.86Z"
             }
           ]
         }
