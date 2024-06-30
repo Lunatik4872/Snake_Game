@@ -32,9 +32,10 @@
               "RelativeDocumentMoniker": "Snake_Game\\Fruit.cs",
               "ToolTip": "C:\\Users\\gaelp\\Documents\\Projets\\Snake_Game\\Snake_Game\\Fruit.cs",
               "RelativeToolTip": "Snake_Game\\Fruit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T17:12:21.356Z"
+              "WhenOpened": "2024-06-29T17:12:21.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +45,7 @@
               "RelativeDocumentMoniker": "Snake_Game\\Snake.cs",
               "ToolTip": "C:\\Users\\gaelp\\Documents\\Projets\\Snake_Game\\Snake_Game\\Snake.cs",
               "RelativeToolTip": "Snake_Game\\Snake.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAIwAYAAAAfAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAcwFEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T12:48:28.354Z",
               "EditorCaption": ""
@@ -57,9 +58,10 @@
               "RelativeDocumentMoniker": "Snake_Game\\Program.cs",
               "ToolTip": "C:\\Users\\gaelp\\Documents\\Projets\\Snake_Game\\Snake_Game\\Program.cs",
               "RelativeToolTip": "Snake_Game\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T17:30:22.86Z"
+              "WhenOpened": "2024-06-28T17:30:22.86Z",
+              "EditorCaption": ""
             }
           ]
         }
