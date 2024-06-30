@@ -1,4 +1,5 @@
 ﻿using Raylib_CsLo;
+using Raylib_CsLo.InternalHelpers;
 using System.Numerics;
 
 public class Snake
@@ -9,7 +10,7 @@ public class Snake
     private Vector2 direction = new Vector2(0, 0);
     private List<Vector2> positions = new List<Vector2>();
     private int score = 0;
-    private int best_score = 0;
+    private int bestScore = 0;
 
     public Snake(Vector2 position)
     {
@@ -26,10 +27,29 @@ public class Snake
     {
         return size;
     }
+    public int getBestScore()
+    {
+        return bestScore;
+    }
 
     public int getScore()
     {
         return score;
+    }
+
+    public void setBestScore(int score)
+    {
+        this.bestScore = score;
+    }
+
+    public void setInit()
+    {
+        score = 0;
+        direction = new Vector2(0, 0);
+        positions = new List<Vector2>();
+        body = new List<Vector2>();
+        body.Add(new Vector2(100, 100));
+        size = 1;
     }
 
     public void updateSnake(Fruit fruit, int fruitSize)
@@ -96,4 +116,19 @@ public class Snake
         return Math.Abs(body[0].X - fruitCoo.X) < fruitSize && Math.Abs(body[0].Y - fruitCoo.Y) < fruitSize; 
     }
 
+    public Boolean death()
+    {
+        float x = body[0].X;
+        float y = body[0].Y;
+
+        for (int i = 1; i < body.Count; i++)
+        {
+            if (body[i].X == x && body[i].Y == y)
+            {
+                return true;
+            }
+        }
+
+        return x <= 40 || x >= 740 || y <= 40 || y >= 540;
+    }
 }

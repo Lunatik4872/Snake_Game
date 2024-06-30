@@ -11,7 +11,6 @@ public class Fruit
     {
         return position;
     }
-
     public void randomSpawn(List<Vector2> snake, int fruitSize)
     {
         Random rand = new Random();
@@ -40,7 +39,4 @@ public class Fruit
         }
         position = fruitPosition;
     }
-
-
-
 }
