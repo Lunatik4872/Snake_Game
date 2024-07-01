@@ -5,7 +5,7 @@ using System.Numerics;
 public class Snake
 {
     private List<Vector2> body;
-    private const int speed = 6;
+    private int speed = 5;
     private int size = 1;
     private Vector2 direction = new Vector2(0, 0);
     private List<Vector2> positions = new List<Vector2>();
@@ -37,6 +37,16 @@ public class Snake
         return score;
     }
 
+    public int getSpeed()
+    {
+        return speed;
+    }
+
+    public Vector2 getDirection()
+    {
+        return direction;
+    }
+
     public void setBestScore(int score)
     {
         this.bestScore = score;
@@ -54,6 +64,7 @@ public class Snake
 
     public void updateSnake(Fruit fruit, int fruitSize)
     {
+
         if (Raylib.IsKeyPressed(KeyboardKey.KEY_RIGHT) && direction.X != -speed)
         {
             direction.X = speed;
@@ -131,4 +142,15 @@ public class Snake
 
         return x <= 40 || x >= 740 || y <= 40 || y >= 540;
     }
+
+    public void speedUp()
+    {
+        if (speed < 10) speed++;
+    }
+
+    public void speedDown()
+    {
+        if (speed > 5) speed--;
+    }
 }
+
